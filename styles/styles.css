@@ -49,6 +49,9 @@ body {
     font-weight: 700;
     letter-spacing: 0px;
 }
+.dskjafln {
+    background-image: url(../influencer-gear-main/images/Circle\ design.svg);
+}
 
 .the-p {
     font-size: 16px;
@@ -203,10 +206,47 @@ body {
 
 /* Responsive  */
 
-@media screen and (min-width: 576px) {
-    .sec-1 {
+@media screen and (max-width: 576px) {
+    .navbar {
         flex-direction: column;
         display: flex;
-        
+    }
+    .sec-2 {
+        flex-direction: column;
+    }
+    .shops {
+        flex-direction: column;
+    }
+    .main-camera-1 {
+        padding-left: 50px;
+    }
+    .main-text-button {
+
+        justify-content: center;
+    }
+    .start-your-career, .the-p, .main-text-button {
+        text-align: center;
+    }
+    .product-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .product-card {
+        margin: 0 auto ;
+    }
+    .sec-4 {
+        flex-direction: column;
+    }
+    .info-text {
+        margin-left: 0;
+    }
+    .info {
+        width: 100%;
+    }
+    .Featured-P {
+        width: 100%;
+    }
+    .to-flex-sm {
+        flex-direction: column;
+        margin-bottom: 10px;
     }
 }
