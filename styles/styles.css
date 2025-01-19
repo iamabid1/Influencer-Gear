@@ -210,6 +210,7 @@ body {
     .navbar {
         flex-direction: column;
         display: flex;
+        text-align: center;
     }
     .sec-2 {
         flex-direction: column;
@@ -229,6 +230,7 @@ body {
     }
     .product-container {
         grid-template-columns: repeat(1, 1fr);
+        
     }
     .product-card {
         margin: 0 auto ;
@@ -248,5 +250,20 @@ body {
     .to-flex-sm {
         flex-direction: column;
         margin-bottom: 10px;
+    }
+    .start-your-career {
+        width: 100%;
+    }
+    .the-p {
+        width: 100%;
+    }
+    .sjgdflgk {
+        width: 100%;
+    }
+    .to-black {
+        width: 500px;
+    }
+    .img-main-camera{
+        width: 500px;
     }
 }
